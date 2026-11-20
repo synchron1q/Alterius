@@ -1,0 +1,38 @@
+# .NET / Visual Studio build outputs
+bin/
+obj/
+publish/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+
+# Bundled external media binaries (place locally before running build.ps1)
+ffmpeg.exe
+ffprobe.exe
+
+# Local runtime config, DPAPI secrets, buffers, and logs
+config.json
+config.json.tmp
+config.json.corrupt_*
+*.log
+logs/
+buffer/
+
+# Python watcher runtime artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.sqlite
+*.sqlite-journal
+ai_analysis_out/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
