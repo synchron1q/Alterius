@@ -1,6 +1,6 @@
 <div align="center">
 
-![Alterius Banner](assets/banner.jpg)
+![Alterius Logo](assets/logo.jpg)
 
 # 🛰️ Alterius
 
@@ -166,7 +166,7 @@ Alterius/
 ├── server_watcher_example.py                   # Серверный обработчик SMB-шары (SQLite + Whisper/LLM hooks)
 ├── LICENSE
 ├── assets/
-│   └── banner.jpg
+│   └── logo.jpg
 └── src/
     └── Alterius/
         ├── Alterius.csproj                     # .NET 8 (net8.0-windows), NAudio + DPAPI
@@ -373,5 +373,7 @@ Recordings are automatically rotated into self-contained time chunks with **SHA-
 <div align="center">
 
 Licensed under the **[MIT License](LICENSE)** · Copyright © 2026 Serikov Farhat Ibragymuly
+
+**Powered By Antigravity**
 
 </div>
